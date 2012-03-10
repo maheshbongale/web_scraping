@@ -1,9 +1,10 @@
 #class for web scraping
 class WebScraping
+	require 'rubygems'
 	require 'hpricot'
 	require 'open-uri'
 	def initialize(url)
-		@url = http://simplyrecipes.com/title/tt0335266/;
+		@url = url
 		@hp = Hpricot(open(@url))
 	end
 	def  title
