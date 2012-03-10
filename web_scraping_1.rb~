@@ -1,7 +1,7 @@
-#class for web scraping
 class WebScraping
 	require 'rubygems'
 	require 'hpricot'
+require 'hpricot'
 	require 'open-uri'
 	def initialize(url)
 		@url = url
