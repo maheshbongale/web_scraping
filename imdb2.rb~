@@ -1,4 +1,6 @@
-require 'imdb1.rb'
-imdb = IMDB.new('http://imdb.com/title/tt0335266/')
+require 'imdb.rb'
+require 'rubygems'
+imdb = IMDB.new('http://www.kumarritesh.com/')
 imdb.title
-imdb.db
+#imdb.description
+
